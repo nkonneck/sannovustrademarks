@@ -1,14 +1,24 @@
 {
   "name": "san-novus-trademark",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "website for San Novus Trademarks",
+  "main": "index.html",
   "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Neil Konnecke",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkonneck/sannovustrademarks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nkonneck/sannovustrademarks/issues"
+  },
+  "homepage": "https://github.com/nkonneck/sannovustrademarks#readme"
 }
